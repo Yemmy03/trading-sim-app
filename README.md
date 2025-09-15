@@ -70,3 +70,13 @@ docker run -d -p 3000:3000 trading-sim-app
 
 Access the app at http://localhost:3000
 ```
+# Continuous Integration (CI)
+
+This project is set up with a GitHub Actions workflow to ensure code quality and build integrity on every push or pull request. The CI pipeline includes:
+```
+Installing dependencies
+Running lint and type checks
+Building the Next.js application
+Running automated tests
+```
+The above ensures that the code is always verified before being deployed to production or containerized environments.
